@@ -1,0 +1,15 @@
+heart-disease-prediction-ml/
+│
+├── README.md
+├── requirements.txt
+├── heart_disease_prediction.ipynb
+├── dataset/
+│   └── heart_2020_cleaned.csv
+├── images/
+│   ├── scatter_bmi_health.png
+│   ├── confusion_matrix_rf.png
+│   └── accuracy_bar_plot.png
+└── models/
+    ├── xgboost_model.json
+    ├── rf_model.pkl
+    └── logistic_model.pkl
