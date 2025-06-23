@@ -1,0 +1,86 @@
+Heart Disease Prediction using Machine Learning
+This project predicts heart disease using various machine learning algorithms on the Heart Disease 2020 cleaned dataset.
+
+Features
+Data preprocessing: Handles categorical and numerical features, encodes variables, and scales features.
+
+Model training: Implements Logistic Regression, Random Forest, XGBoost, Decision Tree, and K-Nearest Neighbors.
+
+Model evaluation: Reports accuracy, confusion matrix, and classification report.
+
+Data visualization: Includes scatter plots and histograms for data exploration.
+
+Project Structure
+CODE.py — Main Python script with all code.
+
+heart_2020_cleaned.csv — Dataset file (must be in the same directory).
+
+Getting Started
+1. Clone the Repository
+bash
+git clone <your-repo-url>
+cd <your-repo-folder>
+2. Install Dependencies
+bash
+pip install pandas numpy scikit-learn xgboost matplotlib seaborn
+3. Add Dataset
+Place heart_2020_cleaned.csv in the project directory.
+
+4. Run the Project
+bash
+python CODE.py
+Workflow Overview
+Data Loading: Reads the heart disease dataset.
+
+Exploratory Data Analysis: Checks data shape, missing values, and target distribution.
+
+Preprocessing:
+
+Label encoding for binary columns.
+
+One-hot encoding for categorical columns.
+
+Train-test split (80-20, stratified).
+
+Feature scaling using StandardScaler.
+
+Model Training & Evaluation:
+
+Logistic Regression
+
+Random Forest
+
+XGBoost
+
+Decision Tree
+
+K-Nearest Neighbors
+
+Prints accuracy, confusion matrix, and classification report for each model.
+
+Visualization:
+
+Scatter plot: BMI vs PhysicalHealth, colored by HeartDisease.
+
+Histograms: Categorical features and target variable.
+
+Algorithms Used
+Algorithm	Library	Description
+Logistic Regression	scikit-learn	Linear baseline for binary outcome
+Random Forest	scikit-learn	Ensemble of decision trees
+XGBoost	xgboost	Gradient boosting
+Decision Tree	scikit-learn	Single decision tree
+K-Nearest Neighbors	scikit-learn	Instance-based with k=5
+Results
+Model performance is displayed in the console after running the script.
+
+Visualizations help understand feature relationships and distributions.
+
+Contributing
+Contributions are welcome! Fork the repo and submit pull requests for improvements or bug fixes.
+
+License
+This project is open-source and available under the MIT License.
+
+Note:
+Ensure all dependencies are installed and the dataset is placed correctly. Adjust file paths as needed for your environment
